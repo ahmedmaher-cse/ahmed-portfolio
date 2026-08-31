@@ -47,8 +47,8 @@ function App() {
             Skills
           </a>
 
-          <a href="#services" onClick={() => setMenuOpen(false)}>
-            Services
+          <a href="#focus" onClick={() => setMenuOpen(false)}>
+            Focus
           </a>
 
           <a href="#projects" onClick={() => setMenuOpen(false)}>
@@ -98,8 +98,9 @@ function App() {
             </h2>
 
             <p className="hero-description">
-              Building practical software solutions through problem-solving,
-              clean code, and strong engineering fundamentals.
+              Building a strong foundation in software development and
+              problem-solving through C# and Computer Engineering, while
+              growing toward Full-Stack .NET development.
             </p>
 
             <div className="hero-buttons">
@@ -163,25 +164,24 @@ function App() {
           <div className="about-content">
             <p>
               I'm a Computer Engineering student with a strong interest in
-              software development, problem-solving, and building practical
-              technical solutions. I enjoy turning ideas into functional
-              applications through structured thinking and clean code.
+              software development and problem-solving. I'm currently building
+              my skills in C#, Object-Oriented Programming, C++, and SQL while
+              expanding my technical knowledge through continuous learning and
+              practical projects.
             </p>
 
             <p>
-              My background in C++, C#, Object-Oriented Programming, SQL, and
-              engineering fundamentals helps me approach problems from both
-              software and hardware perspectives. Through academic projects and
-              continuous hands-on learning, I have developed experience in
-              programming, digital logic design, and electronic circuit design.
+              My background in Digital Logic Design and Circuit Design has
+              helped me develop a structured approach to understanding and
+              solving technical problems from both software and engineering
+              perspectives.
             </p>
 
             <p>
-              I'm currently expanding my software development expertise through
-              the Digital Egypt Pioneers Initiative (DEPI) Full Stack .NET
-              track. My goal is to grow into a professional Full-Stack .NET
-              Developer capable of building reliable and meaningful real-world
-              applications.
+              I'm currently training through the Digital Egypt Pioneers
+              Initiative (DEPI) Full Stack .NET track, where I'm continuing to
+              build my foundation and work toward becoming an aspiring
+              Full-Stack .NET Developer.
             </p>
           </div>
         </section>
@@ -190,7 +190,7 @@ function App() {
         <section id="skills" className="section alt-section">
           <div className="section-header">
             <p className="section-tag">MY SKILLS</p>
-            <h2>Technologies & Expertise</h2>
+            <h2>Technical Skills</h2>
           </div>
 
           <div className="skills-grid">
@@ -232,77 +232,55 @@ function App() {
           </div>
         </section>
 
-        {/* ================= SERVICES ================= */}
-        <section id="services" className="section">
+        {/* ================= CURRENT FOCUS ================= */}
+        <section id="focus" className="section">
           <div className="section-header">
-            <p className="section-tag">WHAT I CAN DO</p>
-            <h2>Areas I Work With</h2>
+            <p className="section-tag">CURRENT FOCUS</p>
+            <h2>What I'm Building</h2>
           </div>
 
           <div className="services-grid">
             <div className="service-card">
               <div className="service-number">01</div>
 
-              <h3>Web Development</h3>
+              <h3>C# & Programming Fundamentals</h3>
 
               <p>
-                Building responsive and user-friendly web applications while
-                continuously developing modern frontend and backend skills.
+                Strengthening my programming foundation through C# and core
+                software development concepts.
               </p>
             </div>
 
             <div className="service-card">
               <div className="service-number">02</div>
 
-              <h3>Backend Development</h3>
+              <h3>Object-Oriented Programming</h3>
 
               <p>
-                Developing structured application logic and learning backend
-                development using C# and .NET technologies.
+                Learning how to design structured and maintainable applications
+                using object-oriented programming principles.
               </p>
             </div>
 
             <div className="service-card">
               <div className="service-number">03</div>
 
-              <h3>Database Development</h3>
+              <h3>Full-Stack .NET Journey</h3>
 
               <p>
-                Working with relational databases using SQL and structured data
-                management principles.
+                Currently expanding my software development knowledge through
+                the DEPI Full Stack .NET training program.
               </p>
             </div>
 
             <div className="service-card">
               <div className="service-number">04</div>
 
-              <h3>Digital Logic Design</h3>
+              <h3>Engineering & Problem Solving</h3>
 
               <p>
-                Designing and analyzing digital circuits using logic gates,
-                flip-flops, counters, and sequential logic.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <div className="service-number">05</div>
-
-              <h3>Circuit Design</h3>
-
-              <p>
-                Designing and analyzing electronic circuits and basic hardware
-                systems using engineering principles.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <div className="service-number">06</div>
-
-              <h3>Problem Solving</h3>
-
-              <p>
-                Applying analytical thinking and structured approaches to solve
-                programming and engineering problems.
+                Applying analytical thinking and my Computer Engineering
+                background to understand and solve technical problems.
               </p>
             </div>
           </div>
@@ -429,11 +407,11 @@ function App() {
           <div className="contact-content">
             <p className="section-tag">GET IN TOUCH</p>
 
-            <h2>Let's Build Something Together.</h2>
+            <h2>Let's Connect.</h2>
 
             <p>
               I'm always interested in learning opportunities, internships, and
-              projects. Feel free to reach out.
+              technical projects. Feel free to reach out.
             </p>
 
             <a
