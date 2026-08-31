@@ -26,11 +26,7 @@ function App() {
     <div className={darkMode ? "app dark" : "app"}>
       {/* ================= NAVBAR ================= */}
       <nav className="navbar">
-        <a
-          href="#home"
-          className="logo"
-          onClick={() => setMenuOpen(false)}
-        >
+        <a href="#home" className="logo" onClick={() => setMenuOpen(false)}>
           Ahmed<span>.</span>
         </a>
 
@@ -99,8 +95,8 @@ function App() {
 
             <p className="hero-description">
               Building a strong foundation in software development and
-              problem-solving through C# and Computer Engineering, while
-              growing toward Full-Stack .NET development.
+              problem-solving through C# and Computer Engineering, while growing
+              toward Full-Stack .NET development.
             </p>
 
             <div className="hero-buttons">
@@ -113,8 +109,8 @@ function App() {
               </a>
 
               <a
-                href="/Ahmed-Maher-CV.pdf"
-                download
+                href="./Ahmed-Maher-CV.pdf"
+                download="Ahmed-Maher-CV.pdf"
                 className="btn secondary-btn"
               >
                 <FaFileDownload />
@@ -300,9 +296,9 @@ function App() {
               <h3>Command-Line Calculator</h3>
 
               <p>
-                Developed a command-line calculator in C++ supporting
-                arithmetic and exponentiation operations with input validation,
-                error handling, and formatted output.
+                Developed a command-line calculator in C++ supporting arithmetic
+                and exponentiation operations with input validation, error
+                handling, and formatted output.
               </p>
 
               <div className="project-tech">
@@ -441,10 +437,7 @@ function App() {
                 <FaLinkedin />
               </a>
 
-              <a
-                href="mailto:ahmedmahersobh2@gmail.com"
-                aria-label="Email"
-              >
+              <a href="mailto:ahmedmahersobh2@gmail.com" aria-label="Email">
                 <FaEnvelope />
               </a>
             </div>
