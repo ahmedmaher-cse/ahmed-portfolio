@@ -1,3 +1,4 @@
+```jsx
 import { useState } from "react";
 
 import {
@@ -290,16 +291,15 @@ function App() {
           </div>
 
           <div className="projects-grid">
-            ```jsx
             <article className="project-card">
               <div className="project-number">01</div>
 
               <h3>Command-Line Calculator</h3>
 
               <p>
-                Developed a command-line calculator in C++ supporting arithmetic
-                and exponentiation operations with input validation, error
-                handling, and formatted output.
+                Developed a command-line calculator in C++ supporting
+                arithmetic and exponentiation operations with input validation,
+                error handling, and formatted output.
               </p>
 
               <div className="project-tech">
@@ -316,7 +316,7 @@ function App() {
                 <FaGithub /> View on GitHub
               </a>
             </article>
-            ```
+
             <article className="project-card">
               <div className="project-number">02</div>
 
@@ -334,6 +334,7 @@ function App() {
                 <span>Op-Amp</span>
               </div>
             </article>
+
             <article className="project-card">
               <div className="project-number">03</div>
 
@@ -350,6 +351,7 @@ function App() {
                 <span>Logic Gates</span>
               </div>
             </article>
+
             <article className="project-card">
               <div className="project-number">04</div>
 
@@ -462,3 +464,4 @@ function App() {
 }
 
 export default App;
+```
