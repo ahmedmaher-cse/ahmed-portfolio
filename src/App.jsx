@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 import {
@@ -297,9 +296,9 @@ function App() {
               <h3>Command-Line Calculator</h3>
 
               <p>
-                Developed a command-line calculator in C++ supporting
-                arithmetic and exponentiation operations with input validation,
-                error handling, and formatted output.
+                Developed a command-line calculator in C++ supporting arithmetic
+                and exponentiation operations with input validation, error
+                handling, and formatted output.
               </p>
 
               <div className="project-tech">
@@ -339,17 +338,41 @@ function App() {
             <article className="project-card">
               <div className="project-number">03</div>
 
-              <h3>Electronic Lock Design</h3>
+              <h3>SecureLock – Digital Access Control System</h3>
 
               <p>
-                Designed a digital electronic lock using flip-flops, counters,
-                logic gates, a timer, decoder, and seven-segment display.
+                Designed and simulated a digital access control system featuring
+                code verification, timed door unlocking, countdown display, and
+                enhanced security mechanisms including a buzzer alarm and
+                30-second lockout after repeated failed attempts.
               </p>
 
               <div className="project-tech">
                 <span>Digital Logic</span>
                 <span>Flip-Flops</span>
-                <span>Logic Gates</span>
+                <span>Counters</span>
+                <span>7-Segment</span>
+              </div>
+
+              <div className="project-links">
+                <a
+                  href="https://github.com/ahmedmaher-cse/SecureLock-Digital-Access-Control-System"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  <FaGithub />
+                  View on GitHub
+                </a>
+
+                <a
+                  href="https://drive.google.com/drive/folders/1byNENC16Bv1t9oxm-E35KOoJa7f0ubDg?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  Watch Demo
+                </a>
               </div>
             </article>
 
@@ -465,4 +488,3 @@ function App() {
 }
 
 export default App;
-
