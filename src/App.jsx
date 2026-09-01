@@ -372,7 +372,7 @@ function App() {
               <div className="timeline-dot"></div>
 
               <div>
-                <span className="timeline-date">2023 — 2028</span>
+                <span className="timeline-date">2024 — 2028</span>
 
                 <h3>Ain Shams University</h3>
 
