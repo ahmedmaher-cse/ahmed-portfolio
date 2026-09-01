@@ -29,7 +29,6 @@ function App() {
         <a href="#home" className="logo" onClick={() => setMenuOpen(false)}>
           Ahmed<span>.</span>{" "}
         </a>
-        ```
         <div className={`nav-links ${menuOpen ? "active" : ""}`}>
           <a href="#home" onClick={() => setMenuOpen(false)}>
             Home
