@@ -1,4 +1,4 @@
-```jsx
+
 import { useState } from "react";
 
 import {
@@ -313,7 +313,8 @@ function App() {
                 rel="noreferrer"
                 className="project-link"
               >
-                <FaGithub /> View on GitHub
+                <FaGithub />
+                View on GitHub
               </a>
             </article>
 
@@ -464,4 +465,4 @@ function App() {
 }
 
 export default App;
-```
+
