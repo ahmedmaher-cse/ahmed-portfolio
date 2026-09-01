@@ -290,6 +290,7 @@ function App() {
           </div>
 
           <div className="projects-grid">
+            ```jsx
             <article className="project-card">
               <div className="project-number">01</div>
 
@@ -305,8 +306,17 @@ function App() {
                 <span>C++</span>
                 <span>C++17</span>
               </div>
-            </article>
 
+              <a
+                href="https://github.com/ahmedmaher-cse/cpp-command-line-calculator"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                <FaGithub /> View on GitHub
+              </a>
+            </article>
+            ```
             <article className="project-card">
               <div className="project-number">02</div>
 
@@ -324,7 +334,6 @@ function App() {
                 <span>Op-Amp</span>
               </div>
             </article>
-
             <article className="project-card">
               <div className="project-number">03</div>
 
@@ -341,7 +350,6 @@ function App() {
                 <span>Logic Gates</span>
               </div>
             </article>
-
             <article className="project-card">
               <div className="project-number">04</div>
 
