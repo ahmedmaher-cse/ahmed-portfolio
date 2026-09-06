@@ -232,6 +232,7 @@ function App() {
         </section>
 
         {/* ================= SERVICES ================= */}
+
         <section id="services" className="section">
           <div className="section-header">
             <p className="section-tag">WHAT I OFFER</p>
@@ -241,47 +242,54 @@ function App() {
           <div className="services-grid">
             <div className="service-card">
               <div className="service-number">01</div>
-
+              ```
               <h3>C# Development</h3>
-
               <p>
-                Developing structured applications using C# and object-oriented
-                programming principles.
+                Developing console applications using C# with a focus on clean
+                structure and practical programming concepts.
               </p>
             </div>
-
             <div className="service-card">
               <div className="service-number">02</div>
 
-              <h3>Backend Development</h3>
+              <h3>Object-Oriented Programming</h3>
 
               <p>
-                Building backend solutions while developing my Full-Stack .NET
-                skills.
+                Applying OOP concepts such as classes, objects, methods, and
+                encapsulation to build structured applications.
               </p>
             </div>
-
             <div className="service-card">
               <div className="service-number">03</div>
 
-              <h3>SQL Database Development</h3>
+              <h3>SQL & Database Operations</h3>
 
               <p>
-                Working with SQL databases to organize and manage application
-                data.
+                Working with SQL databases and performing basic data operations
+                using connection strings and C# applications.
               </p>
             </div>
-
             <div className="service-card">
               <div className="service-number">04</div>
 
               <h3>Problem Solving</h3>
 
               <p>
-                Applying structured problem-solving and analytical thinking to
-                technical challenges.
+                Solving programming problems and technical challenges using
+                logical and analytical thinking.
               </p>
             </div>
+            <div className="service-card">
+              <div className="service-number">05</div>
+
+              <h3>Digital Logic Design</h3>
+
+              <p>
+                Designing and simulating digital logic systems using fundamental
+                digital components and concepts.
+              </p>
+            </div>
+            ```
           </div>
         </section>
 
