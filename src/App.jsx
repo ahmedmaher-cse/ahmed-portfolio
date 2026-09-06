@@ -434,7 +434,7 @@ function App() {
             </article>
           </div>
         </section>
-        
+
         {/* ================= CURRENT FOCUS ================= */}
         <section id="focus" className="section">
           <div className="section-header">
@@ -446,46 +446,35 @@ function App() {
             <div className="service-card">
               <div className="service-number">01</div>
 
-              <h3>C# & Object-Oriented Programming</h3>
+              <h3>Full-Stack .NET Development</h3>
 
               <p>
-                Strengthening my C# programming foundation while applying
-                object-oriented programming principles to build structured and
-                maintainable applications.
+                Building my foundation in the .NET ecosystem through the DEPI
+                Full Stack .NET training program and practical development
+                projects.
               </p>
             </div>
 
             <div className="service-card">
               <div className="service-number">02</div>
 
-              <h3>Full-Stack .NET Journey</h3>
+              <h3>Software Development</h3>
 
               <p>
-                Expanding my software development knowledge through the DEPI
-                Full Stack .NET training program.
+                Deepening my understanding of C#, object-oriented programming,
+                databases, and software development practices through hands-on
+                learning.
               </p>
             </div>
 
             <div className="service-card">
               <div className="service-number">03</div>
 
-              <h3>Engineering & Problem Solving</h3>
+              <h3>Digital Verification</h3>
 
               <p>
-                Applying analytical thinking and my Computer Engineering
-                background to understand and solve technical problems.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <div className="service-number">04</div>
-
-              <h3>Hardware & Digital Verification</h3>
-
-              <p>
-                Exploring hardware design and digital verification, building on
-                my Digital Logic Design background and taking my first steps
-                with Verilog.
+                Beginning my journey into digital verification and Verilog,
+                building on my background in Digital Logic Design.
               </p>
             </div>
           </div>
