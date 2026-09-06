@@ -315,7 +315,7 @@ function App() {
                 <span>C++17</span>
               </div>
 
-              <div className="project-links">
+              <div className="project-links calculator-links">
                 <a
                   href="https://github.com/ahmedmaher-cse/cpp-command-line-calculator"
                   target="_blank"
@@ -365,7 +365,7 @@ function App() {
                 <span>7-Segment</span>
               </div>
 
-              <div className="project-links">
+              <div className="project-links securelock-links">
                 <a
                   href="https://github.com/ahmedmaher-cse/SecureLock-Digital-Access-Control-System"
                   target="_blank"

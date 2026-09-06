@@ -711,3 +711,45 @@ footer {
     flex-direction: column;
   }
 }
+/* PROJECT LINKS */
+
+.project-links {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.project-link:hover {
+  color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+/* Calculator */
+.calculator-links {
+  margin-top: 1.8rem;
+  padding-bottom: 0.5rem;
+}
+
+/* SecureLock */
+.securelock-links {
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1.8rem;
+  padding: 0 0.2rem 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .securelock-links {
+    gap: 1rem;
+  }
+}
