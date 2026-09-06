@@ -1,4 +1,3 @@
-jsx
 import { useState } from "react";
 
 import {
@@ -328,6 +327,25 @@ function App() {
             <article className="project-card">
               <div className="project-number">02</div>
 
+              <h3>Solar Tracking System</h3>
+
+              <p>
+                Designed a hardware-based solar tracking system using LDR
+                sensors, a servo motor, op-amps, and resistors to detect light
+                direction and adjust panel position.
+              </p>
+
+              <div className="project-tech">
+                <span>LDR</span>
+                <span>Servo Motor</span>
+                <span>Op-Amp</span>
+              </div>
+            </article>
+
+            {/* Project 03 */}
+            <article className="project-card">
+              <div className="project-number">03</div>
+
               <h3>SecureLock – Digital Access Control System</h3>
 
               <p>
@@ -363,25 +381,6 @@ function App() {
                 >
                   Watch Demo
                 </a>
-              </div>
-            </article>
-
-            {/* Project 03 */}
-            <article className="project-card">
-              <div className="project-number">03</div>
-
-              <h3>Solar Tracking System</h3>
-
-              <p>
-                Designed a hardware-based solar tracking system using LDR
-                sensors, a servo motor, op-amps, and resistors to detect light
-                direction and adjust panel position.
-              </p>
-
-              <div className="project-tech">
-                <span>LDR</span>
-                <span>Servo Motor</span>
-                <span>Op-Amp</span>
               </div>
             </article>
 
