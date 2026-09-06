@@ -245,8 +245,8 @@ function App() {
               <h3>C# Development</h3>
 
               <p>
-                Developing structured applications using C# and
-                object-oriented programming principles.
+                Developing structured applications using C# and object-oriented
+                programming principles.
               </p>
             </div>
 
@@ -300,9 +300,9 @@ function App() {
               <h3>Command-Line Calculator</h3>
 
               <p>
-                Developed a command-line calculator in C++ supporting
-                arithmetic and exponentiation operations with input
-                validation, error handling, and formatted output.
+                Developed a command-line calculator in C++ supporting arithmetic
+                and exponentiation operations with input validation, error
+                handling, and formatted output.
               </p>
 
               <div className="project-tech">
@@ -327,32 +327,13 @@ function App() {
             <article className="project-card">
               <div className="project-number">02</div>
 
-              <h3>Solar Tracking System</h3>
-
-              <p>
-                Designed a hardware-based solar tracking system using LDR
-                sensors, a servo motor, op-amps, and resistors to detect light
-                direction and adjust panel position.
-              </p>
-
-              <div className="project-tech">
-                <span>LDR</span>
-                <span>Servo Motor</span>
-                <span>Op-Amp</span>
-              </div>
-            </article>
-
-            {/* Project 03 */}
-            <article className="project-card">
-              <div className="project-number">03</div>
-
               <h3>SecureLock – Digital Access Control System</h3>
 
               <p>
-                Designed and simulated a digital access control system
-                featuring code verification, timed door unlocking, countdown
-                display, and enhanced security mechanisms including a buzzer
-                alarm and 30-second lockout after repeated failed attempts.
+                Designed and simulated a digital access control system featuring
+                code verification, timed door unlocking, countdown display, and
+                enhanced security mechanisms including a buzzer alarm and
+                30-second lockout after repeated failed attempts.
               </p>
 
               <div className="project-tech">
@@ -381,6 +362,25 @@ function App() {
                 >
                   Watch Demo
                 </a>
+              </div>
+            </article>
+
+            {/* Project 03 */}
+            <article className="project-card">
+              <div className="project-number">03</div>
+
+              <h3>Solar Tracking System</h3>
+
+              <p>
+                Designed a hardware-based solar tracking system using LDR
+                sensors, a servo motor, op-amps, and resistors to detect light
+                direction and adjust panel position.
+              </p>
+
+              <div className="project-tech">
+                <span>LDR</span>
+                <span>Servo Motor</span>
+                <span>Op-Amp</span>
               </div>
             </article>
 
@@ -515,8 +515,8 @@ function App() {
             <h2>Let's Connect.</h2>
 
             <p>
-              I'm always interested in learning opportunities, internships,
-              and technical projects. Feel free to reach out.
+              I'm always interested in learning opportunities, internships, and
+              technical projects. Feel free to reach out.
             </p>
 
             <a
@@ -546,10 +546,7 @@ function App() {
                 <FaLinkedin />
               </a>
 
-              <a
-                href="mailto:ahmedmahersobh2@gmail.com"
-                aria-label="Email"
-              >
+              <a href="mailto:ahmedmahersobh2@gmail.com" aria-label="Email">
                 <FaEnvelope />
               </a>
             </div>
