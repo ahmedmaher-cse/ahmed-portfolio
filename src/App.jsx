@@ -98,9 +98,9 @@ function App() {
             </h2>
 
             <p className="hero-description">
-              I combine software development and Computer Engineering knowledge
-              to approach technical problems from both software and engineering
-              perspectives.
+              I help individuals and small businesses build practical software
+              solutions through C# development, SQL, and problem-solving, backed
+              by a Computer Engineering mindset.
             </p>
 
             <div className="hero-buttons">
@@ -232,7 +232,7 @@ function App() {
         <section id="services" className="section">
           <div className="section-header">
             <p className="section-tag">WHAT I WORK WITH</p>
-            <h2>Skills & Capabilities</h2>
+            <h2>Offered Services</h2>
           </div>
 
           <div className="services-grid">
