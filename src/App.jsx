@@ -24,34 +24,46 @@ function App() {
 
   return (
     <div className={darkMode ? "app dark" : "app"}>
-      {/* ================= NAVBAR ================= */}{" "}
+      {/* ================= NAVBAR ================= */}
       <nav className="navbar">
         <a href="#home" className="logo" onClick={() => setMenuOpen(false)}>
-          Ahmed<span>.</span>{" "}
+          Ahmed<span>.</span>
         </a>
+
         <div className={`nav-links ${menuOpen ? "active" : ""}`}>
           <a href="#home" onClick={() => setMenuOpen(false)}>
             Home
           </a>
+
           <a href="#about" onClick={() => setMenuOpen(false)}>
             About
           </a>
+
           <a href="#skills" onClick={() => setMenuOpen(false)}>
             Skills
           </a>
-          <a href="#focus" onClick={() => setMenuOpen(false)}>
-            Focus
+
+          <a href="#services" onClick={() => setMenuOpen(false)}>
+            Services
           </a>
+
           <a href="#projects" onClick={() => setMenuOpen(false)}>
             Projects
           </a>
+
+          <a href="#focus" onClick={() => setMenuOpen(false)}>
+            Focus
+          </a>
+
           <a href="#education" onClick={() => setMenuOpen(false)}>
             Education
           </a>
+
           <a href="#contact" onClick={() => setMenuOpen(false)}>
             Contact
           </a>
         </div>
+
         <div className="nav-actions">
           <button
             className="theme-toggle"
@@ -70,6 +82,7 @@ function App() {
           </button>
         </div>
       </nav>
+
       <main>
         {/* ================= HERO ================= */}
         <section id="home" className="hero">
@@ -85,10 +98,9 @@ function App() {
             </h2>
 
             <p className="hero-description">
-              Building a strong foundation in software development and
-              problem-solving through C# and Computer Engineering, while
-              expanding my interests into hardware design and digital
-              verification.
+              I combine software development and Computer Engineering knowledge
+              to approach technical problems from both software and engineering
+              perspectives.
             </p>
 
             <div className="hero-buttons">
@@ -153,28 +165,22 @@ function App() {
             <p>
               I'm a Computer Engineering student with a strong interest in
               software development and problem-solving. I'm building my skills
-              in C#, Object-Oriented Programming, C++, and SQL while expanding
-              my technical knowledge through continuous learning and practical
-              projects.
+              in C#, Object-Oriented Programming, C++, and SQL through
+              continuous learning and practical projects.
             </p>
 
             <p>
               My background in Digital Logic Design and Circuit Design has
-              helped me develop a structured approach to understanding and
-              solving technical problems from both software and engineering
+              developed my structured approach to understanding and solving
+              technical problems from both software and engineering
               perspectives.
             </p>
 
             <p>
-              I'm also exploring hardware design and digital verification,
-              building on my Digital Logic Design background and taking my first
-              steps with Verilog.
-            </p>
-
-            <p>
-              I'm training through the Digital Egypt Pioneers Initiative (DEPI)
-              Full Stack .NET track, where I'm continuing to build my foundation
-              and work toward becoming a Full-Stack .NET Developer.
+              I'm currently training through the Digital Egypt Pioneers
+              Initiative (DEPI) Full Stack .NET track, while also exploring
+              hardware design and digital verification with my first steps in
+              Verilog.
             </p>
           </div>
         </section>
@@ -222,6 +228,178 @@ function App() {
               <h3>Engineering</h3>
               <p>Digital Logic Design & Circuit Design</p>
             </div>
+          </div>
+        </section>
+
+        {/* ================= SERVICES ================= */}
+        <section id="services" className="section">
+          <div className="section-header">
+            <p className="section-tag">WHAT I OFFER</p>
+            <h2>Services</h2>
+          </div>
+
+          <div className="services-grid">
+            <div className="service-card">
+              <div className="service-number">01</div>
+
+              <h3>C# Development</h3>
+
+              <p>
+                Developing structured applications using C# and
+                object-oriented programming principles.
+              </p>
+            </div>
+
+            <div className="service-card">
+              <div className="service-number">02</div>
+
+              <h3>Backend Development</h3>
+
+              <p>
+                Building backend solutions while developing my Full-Stack .NET
+                skills.
+              </p>
+            </div>
+
+            <div className="service-card">
+              <div className="service-number">03</div>
+
+              <h3>SQL Database Development</h3>
+
+              <p>
+                Working with SQL databases to organize and manage application
+                data.
+              </p>
+            </div>
+
+            <div className="service-card">
+              <div className="service-number">04</div>
+
+              <h3>Problem Solving</h3>
+
+              <p>
+                Applying structured problem-solving and analytical thinking to
+                technical challenges.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ================= PROJECTS ================= */}
+        <section id="projects" className="section alt-section">
+          <div className="section-header">
+            <p className="section-tag">MY WORK</p>
+            <h2>Featured Projects</h2>
+          </div>
+
+          <div className="projects-grid">
+            {/* Project 01 */}
+            <article className="project-card">
+              <div className="project-number">01</div>
+
+              <h3>Command-Line Calculator</h3>
+
+              <p>
+                Developed a command-line calculator in C++ supporting
+                arithmetic and exponentiation operations with input
+                validation, error handling, and formatted output.
+              </p>
+
+              <div className="project-tech">
+                <span>C++</span>
+                <span>C++17</span>
+              </div>
+
+              <div className="project-links calculator-links">
+                <a
+                  href="https://github.com/ahmedmaher-cse/cpp-command-line-calculator"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  <FaGithub />
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+
+            {/* Project 02 */}
+            <article className="project-card">
+              <div className="project-number">02</div>
+
+              <h3>Solar Tracking System</h3>
+
+              <p>
+                Designed a hardware-based solar tracking system using LDR
+                sensors, a servo motor, op-amps, and resistors to detect light
+                direction and adjust panel position.
+              </p>
+
+              <div className="project-tech">
+                <span>LDR</span>
+                <span>Servo Motor</span>
+                <span>Op-Amp</span>
+              </div>
+            </article>
+
+            {/* Project 03 */}
+            <article className="project-card">
+              <div className="project-number">03</div>
+
+              <h3>SecureLock – Digital Access Control System</h3>
+
+              <p>
+                Designed and simulated a digital access control system
+                featuring code verification, timed door unlocking, countdown
+                display, and enhanced security mechanisms including a buzzer
+                alarm and 30-second lockout after repeated failed attempts.
+              </p>
+
+              <div className="project-tech">
+                <span>Digital Logic</span>
+                <span>Flip-Flops</span>
+                <span>Counters</span>
+                <span>7-Segment</span>
+              </div>
+
+              <div className="project-links securelock-links">
+                <a
+                  href="https://github.com/ahmedmaher-cse/SecureLock-Digital-Access-Control-System"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  <FaGithub />
+                  View on GitHub
+                </a>
+
+                <a
+                  href="https://drive.google.com/drive/folders/1byNENC16Bv1t9oxm-E35KOoJa7f0ubDg?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  Watch Demo
+                </a>
+              </div>
+            </article>
+
+            {/* Project 04 */}
+            <article className="project-card">
+              <div className="project-number">04</div>
+
+              <h3>DC Regulated Power Supply</h3>
+
+              <p>
+                Designed and built a regulated DC power supply using a
+                transformer, bridge rectifier, capacitor, and Zener diode.
+              </p>
+
+              <div className="project-tech">
+                <span>Electronics</span>
+                <span>Circuit Design</span>
+              </div>
+            </article>
           </div>
         </section>
 
@@ -291,120 +469,6 @@ function App() {
           </div>
         </section>
 
-        {/* ================= PROJECTS ================= */}
-        <section id="projects" className="section alt-section">
-          <div className="section-header">
-            <p className="section-tag">MY WORK</p>
-            <h2>Featured Projects</h2>
-          </div>
-
-          <div className="projects-grid">
-            <article className="project-card">
-              <div className="project-number">01</div>
-
-              <h3>Command-Line Calculator</h3>
-
-              <p>
-                Developed a command-line calculator in C++ supporting arithmetic
-                and exponentiation operations with input validation, error
-                handling, and formatted output.
-              </p>
-
-              <div className="project-tech">
-                <span>C++</span>
-                <span>C++17</span>
-              </div>
-
-              <div className="project-links calculator-links">
-                <a
-                  href="https://github.com/ahmedmaher-cse/cpp-command-line-calculator"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="project-link"
-                >
-                  <FaGithub />
-                  View on GitHub
-                </a>
-              </div>
-            </article>
-
-            <article className="project-card">
-              <div className="project-number">02</div>
-
-              <h3>Solar Tracking System</h3>
-
-              <p>
-                Designed a hardware-based solar tracking system using LDR
-                sensors, a servo motor, op-amps, and resistors to detect light
-                direction and adjust panel position.
-              </p>
-
-              <div className="project-tech">
-                <span>LDR</span>
-                <span>Servo Motor</span>
-                <span>Op-Amp</span>
-              </div>
-            </article>
-
-            <article className="project-card">
-              <div className="project-number">03</div>
-
-              <h3>SecureLock – Digital Access Control System</h3>
-
-              <p>
-                Designed and simulated a digital access control system featuring
-                code verification, timed door unlocking, countdown display, and
-                enhanced security mechanisms including a buzzer alarm and
-                30-second lockout after repeated failed attempts.
-              </p>
-
-              <div className="project-tech">
-                <span>Digital Logic</span>
-                <span>Flip-Flops</span>
-                <span>Counters</span>
-                <span>7-Segment</span>
-              </div>
-
-              <div className="project-links securelock-links">
-                <a
-                  href="https://github.com/ahmedmaher-cse/SecureLock-Digital-Access-Control-System"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="project-link"
-                >
-                  <FaGithub />
-                  View on GitHub
-                </a>
-
-                <a
-                  href="https://drive.google.com/drive/folders/1byNENC16Bv1t9oxm-E35KOoJa7f0ubDg?usp=sharing"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="project-link"
-                >
-                  Watch Demo
-                </a>
-              </div>
-            </article>
-
-            <article className="project-card">
-              <div className="project-number">04</div>
-
-              <h3>DC Regulated Power Supply</h3>
-
-              <p>
-                Designed and built a regulated DC power supply using a
-                transformer, bridge rectifier, capacitor, and Zener diode.
-              </p>
-
-              <div className="project-tech">
-                <span>Electronics</span>
-                <span>Circuit Design</span>
-              </div>
-            </article>
-          </div>
-        </section>
-
         {/* ================= EDUCATION ================= */}
         <section id="education" className="section">
           <div className="section-header">
@@ -451,8 +515,8 @@ function App() {
             <h2>Let's Connect.</h2>
 
             <p>
-              I'm always interested in learning opportunities, internships, and
-              technical projects. Feel free to reach out.
+              I'm always interested in learning opportunities, internships,
+              and technical projects. Feel free to reach out.
             </p>
 
             <a
@@ -482,13 +546,17 @@ function App() {
                 <FaLinkedin />
               </a>
 
-              <a href="mailto:ahmedmahersobh2@gmail.com" aria-label="Email">
+              <a
+                href="mailto:ahmedmahersobh2@gmail.com"
+                aria-label="Email"
+              >
                 <FaEnvelope />
               </a>
             </div>
           </div>
         </section>
       </main>
+
       {/* ================= FOOTER ================= */}
       <footer>
         <p>© 2026 Ahmed Maher. All rights reserved.</p>
