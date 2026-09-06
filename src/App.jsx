@@ -296,7 +296,7 @@ function App() {
             {/* Project 01 */}
             <article className="project-card">
               <div className="project-number">01</div>
-              ```
+
               <h3>Command-Line Calculator</h3>
               <p>
                 Developed a command-line calculator in C++ supporting arithmetic
@@ -318,14 +318,13 @@ function App() {
                   View on GitHub
                 </a>
               </div>
-              ```
             </article>
 
             {/* Project 02 */}
 
             <article className="project-card">
               <div className="project-number">02</div>
-              ```
+
               <h3>C# ATM Console Application</h3>
               <p>
                 Developed a console-based ATM application using C# and OOP
@@ -349,14 +348,13 @@ function App() {
                   View on GitHub
                 </a>
               </div>
-              ```
             </article>
 
             {/* Project 03 */}
 
             <article className="project-card">
               <div className="project-number">03</div>
-              ```
+
               <h3>SecureLock – Digital Access Control System</h3>
               <p>
                 Designed and simulated a digital access control system featuring
@@ -390,14 +388,13 @@ function App() {
                   Watch Demo
                 </a>
               </div>
-              ```
             </article>
 
             {/* Project 04 */}
 
             <article className="project-card">
               <div className="project-number">04</div>
-              ```
+
               <h3>Solar Tracking System</h3>
               <p>
                 Designed a hardware-based solar tracking system using LDR
@@ -409,14 +406,13 @@ function App() {
                 <span>Servo Motor</span>
                 <span>Op-Amp</span>
               </div>
-              ```
             </article>
 
             {/* Project 05 */}
 
             <article className="project-card">
               <div className="project-number">05</div>
-              ```
+
               <h3>DC Regulated Power Supply</h3>
               <p>
                 Designed and built a regulated DC power supply using a
@@ -426,7 +422,6 @@ function App() {
                 <span>Electronics</span>
                 <span>Circuit Design</span>
               </div>
-              ```
             </article>
           </div>
         </section>
