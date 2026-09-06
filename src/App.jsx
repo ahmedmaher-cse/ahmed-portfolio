@@ -242,7 +242,7 @@ function App() {
           <div className="services-grid">
             <div className="service-card">
               <div className="service-number">01</div>
-              ```
+
               <h3>C# Development</h3>
               <p>
                 Developing console applications using C# with a focus on clean
@@ -289,7 +289,6 @@ function App() {
                 digital components and concepts.
               </p>
             </div>
-            ```
           </div>
         </section>
 
