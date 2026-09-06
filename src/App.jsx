@@ -153,7 +153,6 @@ function App() {
             />
           </div>
         </section>
-
         {/* ================= ABOUT ================= */}
         <section id="about" className="section">
           <div className="section-header">
@@ -184,7 +183,6 @@ function App() {
             </p>
           </div>
         </section>
-
         {/* ================= SKILLS ================= */}
         <section id="skills" className="section alt-section">
           <div className="section-header">
@@ -230,9 +228,7 @@ function App() {
             </div>
           </div>
         </section>
-
         {/* ================= SERVICES ================= */}
-
         <section id="services" className="section">
           <div className="section-header">
             <p className="section-tag">WHAT I WORK WITH</p>
@@ -438,7 +434,7 @@ function App() {
             </article>
           </div>
         </section>
-
+        
         {/* ================= CURRENT FOCUS ================= */}
         <section id="focus" className="section">
           <div className="section-header">
@@ -450,27 +446,17 @@ function App() {
             <div className="service-card">
               <div className="service-number">01</div>
 
-              <h3>C# & Programming Fundamentals</h3>
+              <h3>C# & Object-Oriented Programming</h3>
 
               <p>
-                Strengthening my programming foundation through C# and core
-                software development concepts.
+                Strengthening my C# programming foundation while applying
+                object-oriented programming principles to build structured and
+                maintainable applications.
               </p>
             </div>
 
             <div className="service-card">
               <div className="service-number">02</div>
-
-              <h3>Object-Oriented Programming</h3>
-
-              <p>
-                Learning how to design structured and maintainable applications
-                using object-oriented programming principles.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <div className="service-number">03</div>
 
               <h3>Full-Stack .NET Journey</h3>
 
@@ -481,7 +467,7 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-number">04</div>
+              <div className="service-number">03</div>
 
               <h3>Engineering & Problem Solving</h3>
 
@@ -492,7 +478,7 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-number">05</div>
+              <div className="service-number">04</div>
 
               <h3>Hardware & Digital Verification</h3>
 
@@ -504,7 +490,6 @@ function App() {
             </div>
           </div>
         </section>
-
         {/* ================= EDUCATION ================= */}
         <section id="education" className="section">
           <div className="section-header">
@@ -542,7 +527,6 @@ function App() {
             </div>
           </div>
         </section>
-
         {/* ================= CONTACT ================= */}
         <section id="contact" className="contact-section">
           <div className="contact-content">
