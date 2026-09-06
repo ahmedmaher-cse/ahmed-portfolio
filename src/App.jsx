@@ -179,8 +179,8 @@ function App() {
             <p>
               I'm currently training through the Digital Egypt Pioneers
               Initiative (DEPI) Full Stack .NET track, while also exploring
-              hardware design and digital verification with my first steps in
-              Verilog.
+              hardware design and beginning my journey into digital verification
+              with Verilog.
             </p>
           </div>
         </section>
@@ -217,7 +217,7 @@ function App() {
               </span>
 
               <h3>Database</h3>
-              <p>SQL</p>
+              <p>SQL & SQL Server</p>
             </div>
 
             <div className="skill-card">
@@ -235,8 +235,8 @@ function App() {
 
         <section id="services" className="section">
           <div className="section-header">
-            <p className="section-tag">WHAT I OFFER</p>
-            <h2>Services</h2>
+            <p className="section-tag">WHAT I WORK WITH</p>
+            <h2>Skills & Capabilities</h2>
           </div>
 
           <div className="services-grid">
@@ -244,54 +244,60 @@ function App() {
               <div className="service-number">01</div>
 
               <h3>C# Development</h3>
+
               <p>
                 Developing console applications using C# with a focus on clean
-                structure and practical programming concepts.
+                structure, practical programming, and object-oriented concepts.
               </p>
             </div>
+
             <div className="service-card">
               <div className="service-number">02</div>
 
               <h3>Object-Oriented Programming</h3>
 
               <p>
-                Applying OOP concepts such as classes, objects, methods, and
-                encapsulation to build structured applications.
+                Applying OOP concepts such as classes, objects, methods,
+                properties, and encapsulation to build structured applications.
               </p>
             </div>
+
             <div className="service-card">
               <div className="service-number">03</div>
 
               <h3>SQL & Database Operations</h3>
 
               <p>
-                Working with SQL databases and performing basic data operations
-                using connection strings and C# applications.
+                Working with SQL databases and connecting C# applications to
+                perform basic data operations such as inserting, updating, and
+                retrieving data.
               </p>
             </div>
+
             <div className="service-card">
               <div className="service-number">04</div>
 
               <h3>Problem Solving</h3>
 
               <p>
-                Solving programming problems and technical challenges using
-                logical and analytical thinking.
+                Solving programming problems and technical assignments using
+                logical and analytical thinking, including C++ problem-solving
+                practice.
               </p>
             </div>
+
             <div className="service-card">
               <div className="service-number">05</div>
 
-              <h3>Digital Logic Design</h3>
+              <h3>Digital Logic & Circuit Design</h3>
 
               <p>
-                Designing and simulating digital logic systems using fundamental
-                digital components and concepts.
+                Designing and simulating digital logic systems and electronic
+                circuits using fundamental engineering concepts and components.
               </p>
             </div>
           </div>
         </section>
-
         {/* ================= PROJECTS ================= */}
         <section id="projects" className="section alt-section">
           <div className="section-header">
