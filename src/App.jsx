@@ -248,17 +248,6 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-number">02</div>
-
-              <h3>Object-Oriented Programming</h3>
-
-              <p>
-                Applying OOP concepts such as classes, objects, methods,
-                properties, and encapsulation to build structured applications.
-              </p>
-            </div>
-
-            <div className="service-card">
               <div className="service-number">03</div>
 
               <h3>SQL & Database Operations</h3>
