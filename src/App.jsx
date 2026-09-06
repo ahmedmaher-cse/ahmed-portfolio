@@ -260,18 +260,6 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-number">04</div>
-
-              <h3>Problem Solving</h3>
-
-              <p>
-                Solving programming problems and technical assignments using
-                logical and analytical thinking, including C++ problem-solving
-                practice.
-              </p>
-            </div>
-
-            <div className="service-card">
               <div className="service-number">05</div>
 
               <h3>Digital Logic & Circuit Design</h3>
