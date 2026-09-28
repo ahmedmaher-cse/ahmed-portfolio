@@ -43,16 +43,16 @@ function App() {
             Skills
           </a>
 
+          <a href="#experience" onClick={() => setMenuOpen(false)}>
+            Experience
+          </a>
+
           <a href="#services" onClick={() => setMenuOpen(false)}>
             Services
           </a>
 
           <a href="#projects" onClick={() => setMenuOpen(false)}>
             Projects
-          </a>
-
-          <a href="#focus" onClick={() => setMenuOpen(false)}>
-            Focus
           </a>
 
           <a href="#education" onClick={() => setMenuOpen(false)}>
@@ -104,12 +104,12 @@ function App() {
             </p>
 
             <div className="hero-buttons">
-              <a href="#projects" className="btn primary-btn">
-                View My Work
+              <a href="#contact" className="btn primary-btn">
+                Let's Work Together
               </a>
 
-              <a href="#contact" className="btn secondary-btn">
-                Contact Me
+              <a href="#projects" className="btn secondary-btn">
+                View My Projects
               </a>
 
               <a
@@ -153,6 +153,7 @@ function App() {
             />
           </div>
         </section>
+
         {/* ================= ABOUT ================= */}
         <section id="about" className="section">
           <div className="section-header">
@@ -183,6 +184,7 @@ function App() {
             </p>
           </div>
         </section>
+
         {/* ================= SKILLS ================= */}
         <section id="skills" className="section alt-section">
           <div className="section-header">
@@ -228,27 +230,56 @@ function App() {
             </div>
           </div>
         </section>
-        {/* ================= SERVICES ================= */}
-        <section id="services" className="section">
+
+        {/* ================= EXPERIENCE ================= */}
+        <section id="experience" className="section">
           <div className="section-header">
-            <p className="section-tag">WHAT I WORK WITH</p>
-            <h2>Offered Services</h2>
+            <p className="section-tag">MY EXPERIENCE</p>
+            <h2>Experience</h2>
+          </div>
+
+          <div className="timeline">
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+
+              <div>
+                <span className="timeline-date">2026 — Present</span>
+
+                <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
+
+                <p>Full Stack .NET Trainee · 200 Hours</p>
+
+                <p className="timeline-note">
+                  Training in C#, .NET, Object-Oriented Programming, SQL,
+                  databases, and full-stack development through practical
+                  projects and hands-on learning.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ================= SERVICES & CURRENT FOCUS ================= */}
+        <section id="services" className="section alt-section">
+          <div className="section-header">
+            <p className="section-tag">WHAT I DO & WHAT I'M BUILDING</p>
+            <h2>Services & Current Focus</h2>
           </div>
 
           <div className="services-grid">
             <div className="service-card">
               <div className="service-number">01</div>
 
-              <h3>C# Development</h3>
+              <h3>C# & .NET Development</h3>
 
               <p>
-                Developing console applications using C# with a focus on clean
-                structure, practical programming, and object-oriented concepts.
+                Developing practical applications using C# and building my
+                foundation in the .NET ecosystem through hands-on projects.
               </p>
             </div>
 
             <div className="service-card">
-              <div className="service-number">03</div>
+              <div className="service-number">02</div>
 
               <h3>SQL & Database Operations</h3>
 
@@ -260,7 +291,18 @@ function App() {
             </div>
 
             <div className="service-card">
-              <div className="service-number">05</div>
+              <div className="service-number">03</div>
+
+              <h3>Software Development</h3>
+
+              <p>
+                Deepening my understanding of object-oriented programming,
+                databases, clean structure, and practical software development.
+              </p>
+            </div>
+
+            <div className="service-card">
+              <div className="service-number">04</div>
 
               <h3>Digital Logic & Circuit Design</h3>
 
@@ -269,10 +311,22 @@ function App() {
                 circuits using fundamental engineering concepts and components.
               </p>
             </div>
+
+            <div className="service-card">
+              <div className="service-number">05</div>
+
+              <h3>Digital Verification</h3>
+
+              <p>
+                Beginning my journey into digital verification and Verilog,
+                building on my background in Digital Logic Design.
+              </p>
+            </div>
           </div>
         </section>
+
         {/* ================= PROJECTS ================= */}
-        <section id="projects" className="section alt-section">
+        <section id="projects" className="section">
           <div className="section-header">
             <p className="section-tag">MY WORK</p>
             <h2>Featured Projects</h2>
@@ -284,15 +338,18 @@ function App() {
               <div className="project-number">01</div>
 
               <h3>Command-Line Calculator</h3>
+
               <p>
                 Developed a command-line calculator in C++ supporting arithmetic
                 and exponentiation operations with input validation, error
                 handling, and formatted output.
               </p>
+
               <div className="project-tech">
                 <span>C++</span>
                 <span>C++17</span>
               </div>
+
               <div className="project-links calculator-links">
                 <a
                   href="https://github.com/ahmedmaher-cse/cpp-command-line-calculator"
@@ -307,22 +364,24 @@ function App() {
             </article>
 
             {/* Project 02 */}
-
             <article className="project-card">
               <div className="project-number">02</div>
 
               <h3>C# ATM Console Application</h3>
+
               <p>
                 Developed a console-based ATM application using C# and OOP
                 concepts, implementing customer authentication, balance
                 checking, withdrawals, and deposits.
               </p>
+
               <div className="project-tech">
                 <span>C#</span>
                 <span>OOP</span>
                 <span>Collections</span>
                 <span>.NET</span>
               </div>
+
               <div className="project-links calculator-links">
                 <a
                   href="https://github.com/ahmedmaher-cse/CSharp-ATM-Console-Application"
@@ -337,23 +396,25 @@ function App() {
             </article>
 
             {/* Project 03 */}
-
             <article className="project-card">
               <div className="project-number">03</div>
 
               <h3>SecureLock – Digital Access Control System</h3>
+
               <p>
                 Designed and simulated a digital access control system featuring
                 code verification, timed door unlocking, countdown display, and
                 enhanced security mechanisms including a buzzer alarm and
                 30-second lockout after repeated failed attempts.
               </p>
+
               <div className="project-tech">
                 <span>Digital Logic</span>
                 <span>Flip-Flops</span>
                 <span>Counters</span>
                 <span>7-Segment</span>
               </div>
+
               <div className="project-links securelock-links">
                 <a
                   href="https://github.com/ahmedmaher-cse/SecureLock-Digital-Access-Control-System"
@@ -377,16 +438,17 @@ function App() {
             </article>
 
             {/* Project 04 */}
-
             <article className="project-card">
               <div className="project-number">04</div>
 
               <h3>Solar Tracking System</h3>
+
               <p>
                 Designed a hardware-based solar tracking system using LDR
                 sensors, a servo motor, op-amps, and resistors to detect light
                 direction and adjust panel position.
               </p>
+
               <div className="project-tech">
                 <span>LDR</span>
                 <span>Servo Motor</span>
@@ -395,15 +457,16 @@ function App() {
             </article>
 
             {/* Project 05 */}
-
             <article className="project-card">
               <div className="project-number">05</div>
 
               <h3>DC Regulated Power Supply</h3>
+
               <p>
                 Designed and built a regulated DC power supply using a
                 transformer, bridge rectifier, capacitor, and Zener diode.
               </p>
+
               <div className="project-tech">
                 <span>Electronics</span>
                 <span>Circuit Design</span>
@@ -412,52 +475,8 @@ function App() {
           </div>
         </section>
 
-        {/* ================= CURRENT FOCUS ================= */}
-        <section id="focus" className="section">
-          <div className="section-header">
-            <p className="section-tag">CURRENT FOCUS</p>
-            <h2>What I'm Building</h2>
-          </div>
-
-          <div className="services-grid">
-            <div className="service-card">
-              <div className="service-number">01</div>
-
-              <h3>Full-Stack .NET Development</h3>
-
-              <p>
-                Building my foundation in the .NET ecosystem through the DEPI
-                Full Stack .NET training program and practical development
-                projects.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <div className="service-number">02</div>
-
-              <h3>Software Development</h3>
-
-              <p>
-                Deepening my understanding of C#, object-oriented programming,
-                databases, and software development practices through hands-on
-                learning.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <div className="service-number">03</div>
-
-              <h3>Digital Verification</h3>
-
-              <p>
-                Beginning my journey into digital verification and Verilog,
-                building on my background in Digital Logic Design.
-              </p>
-            </div>
-          </div>
-        </section>
         {/* ================= EDUCATION ================= */}
-        <section id="education" className="section">
+        <section id="education" className="section alt-section">
           <div className="section-header">
             <p className="section-tag">EDUCATION</p>
             <h2>My Learning Journey</h2>
@@ -493,16 +512,18 @@ function App() {
             </div>
           </div>
         </section>
+
         {/* ================= CONTACT ================= */}
         <section id="contact" className="contact-section">
           <div className="contact-content">
             <p className="section-tag">GET IN TOUCH</p>
 
-            <h2>Let's Connect.</h2>
+            <h2>Let's Build Something Together.</h2>
 
             <p>
-              I'm always interested in learning opportunities, internships, and
-              technical projects. Feel free to reach out.
+              Looking for an internship, learning opportunity, or technical
+              project? I'm open to connecting, learning, and building practical
+              software solutions.
             </p>
 
             <a
@@ -510,7 +531,7 @@ function App() {
               className="btn primary-btn email-btn"
             >
               <FaEnvelope />
-              <span>Send Me an Email</span>
+              <span>Let's Talk</span>
             </a>
 
             <div className="contact-links">
