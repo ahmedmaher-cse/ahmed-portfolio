@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import {
   FaGithub,
@@ -22,6 +22,10 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  useEffect(() => {
+    document.title = "Ahmed Maher | Computer Engineering & Full-Stack .NET";
+  }, []);
+
   return (
     <div className={darkMode ? "app dark" : "app"}>
       {/* ================= NAVBAR ================= */}
@@ -31,10 +35,6 @@ function App() {
         </a>
 
         <div className={`nav-links ${menuOpen ? "active" : ""}`}>
-          <a href="#home" onClick={() => setMenuOpen(false)}>
-            Home
-          </a>
-
           <a href="#about" onClick={() => setMenuOpen(false)}>
             About
           </a>
@@ -259,72 +259,6 @@ function App() {
           </div>
         </section>
 
-        {/* ================= SERVICES & CURRENT FOCUS ================= */}
-        <section id="services" className="section alt-section">
-          <div className="section-header">
-            <p className="section-tag">WHAT I DO & WHAT I'M BUILDING</p>
-            <h2>Services & Current Focus</h2>
-          </div>
-
-          <div className="services-grid">
-            <div className="service-card">
-              <div className="service-number">01</div>
-
-              <h3>C# & .NET Development</h3>
-
-              <p>
-                Developing practical applications using C# and building my
-                foundation in the .NET ecosystem through hands-on projects.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <div className="service-number">02</div>
-
-              <h3>SQL & Database Operations</h3>
-
-              <p>
-                Working with SQL databases and connecting C# applications to
-                perform basic data operations such as inserting, updating, and
-                retrieving data.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <div className="service-number">03</div>
-
-              <h3>Software Development</h3>
-
-              <p>
-                Deepening my understanding of object-oriented programming,
-                databases, clean structure, and practical software development.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <div className="service-number">04</div>
-
-              <h3>Digital Logic & Circuit Design</h3>
-
-              <p>
-                Designing and simulating digital logic systems and electronic
-                circuits using fundamental engineering concepts and components.
-              </p>
-            </div>
-
-            <div className="service-card">
-              <div className="service-number">05</div>
-
-              <h3>Digital Verification</h3>
-
-              <p>
-                Beginning my journey into digital verification and Verilog,
-                building on my background in Digital Logic Design.
-              </p>
-            </div>
-          </div>
-        </section>
-
         {/* ================= PROJECTS ================= */}
         <section id="projects" className="section">
           <div className="section-header">
@@ -509,6 +443,72 @@ function App() {
 
                 <p>Full Stack .NET Trainee · 200 Hours</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ================= SERVICES & CURRENT FOCUS ================= */}
+        <section id="services" className="section alt-section">
+          <div className="section-header">
+            <p className="section-tag">WHAT I DO & WHAT I'M BUILDING</p>
+            <h2>Services & Current Focus</h2>
+          </div>
+
+          <div className="services-grid">
+            <div className="service-card">
+              <div className="service-number">01</div>
+
+              <h3>C# & .NET Development</h3>
+
+              <p>
+                Developing practical applications using C# and building my
+                foundation in the .NET ecosystem through hands-on projects.
+              </p>
+            </div>
+
+            <div className="service-card">
+              <div className="service-number">02</div>
+
+              <h3>SQL & Database Operations</h3>
+
+              <p>
+                Working with SQL databases and connecting C# applications to
+                perform basic data operations such as inserting, updating, and
+                retrieving data.
+              </p>
+            </div>
+
+            <div className="service-card">
+              <div className="service-number">03</div>
+
+              <h3>Software Development</h3>
+
+              <p>
+                Deepening my understanding of object-oriented programming,
+                databases, clean structure, and practical software development.
+              </p>
+            </div>
+
+            <div className="service-card">
+              <div className="service-number">04</div>
+
+              <h3>Digital Logic & Circuit Design</h3>
+
+              <p>
+                Designing and simulating digital logic systems and electronic
+                circuits using fundamental engineering concepts and components.
+              </p>
+            </div>
+
+            <div className="service-card">
+              <div className="service-number">05</div>
+
+              <h3>Digital Verification</h3>
+
+              <p>
+                Beginning my journey into digital verification and Verilog,
+                building on my background in Digital Logic Design.
+              </p>
             </div>
           </div>
         </section>
