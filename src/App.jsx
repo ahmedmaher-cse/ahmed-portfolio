@@ -47,16 +47,16 @@ function App() {
             Experience
           </a>
 
-          <a href="#services" onClick={() => setMenuOpen(false)}>
-            Services
-          </a>
-
           <a href="#projects" onClick={() => setMenuOpen(false)}>
             Projects
           </a>
 
           <a href="#education" onClick={() => setMenuOpen(false)}>
             Education
+          </a>
+
+          <a href="#services" onClick={() => setMenuOpen(false)}>
+            Services
           </a>
 
           <a href="#contact" onClick={() => setMenuOpen(false)}>
